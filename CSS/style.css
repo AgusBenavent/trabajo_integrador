@@ -15,7 +15,8 @@ body{
 
 header{
     text-align: center;
-    background-color: black;
+    background-color:black;
+    height: 100px;
 }
 
 
@@ -24,6 +25,7 @@ header{
 }
 
 .logo{
+    margin-top: 30px;
     display: inline-block;
     align-items: center;
     color: aliceblue;
@@ -68,7 +70,7 @@ button{
     border-radius: 10px;
 }
 .separacion{
-    height: 500px;
+    height: 300px;
     background-image:url(cine.jpg);
     background-position: center ;
     background-repeat: no-repeat;
@@ -76,7 +78,7 @@ button{
 }
     
 main{
-    background-color: aquamarine;
+    background-color: #9A3B3B;
 }
 
 .separacion{
