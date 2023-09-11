@@ -1,0 +1,104 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    font-family: 'DM Sans', sans-serif;
+    background-color:#9A3B3B;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    text-align: center;
+    background-color: black;
+}
+
+
+.imagenlogo{
+    display: inline-block;
+}
+
+.logo{
+    display: inline-block;
+    align-items: center;
+    color: aliceblue;
+    margin-right: 40px;
+
+}
+.navbarra{
+    display: inline-block;
+    justify-content: center;
+       
+}
+
+
+.nav-enlace{
+    display: inline-block;
+    text-decoration: none;
+    background-color: aliceblue;
+    color: bisque;
+    padding: 10px 20px;
+    border-radius: 20px; 
+}
+
+.nav-enlace:hover{
+    background: red;
+}
+
+.form{
+    display: inline-block;
+    margin-left: 40px;
+}
+
+input{
+    display: inline-block;
+    border-radius: 10px;
+    width: 250px;
+    height: 30px;
+}
+button{
+    display:inline-block;
+    width: 50px;
+    height: 30px;
+    border-radius: 10px;
+}
+.separacion{
+    height: 500px;
+    background-image:url(cine.jpg);
+    background-position: center ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+main{
+    background-color: aquamarine;
+}
+
+.separacion{
+    background-color: #9A3B3B;
+}
+.Texto{
+    background-color: aliceblue;
+    text-align: center;
+}
+section{
+    display: flex;
+    justify-content:flex-end;
+    flex-direction: row;
+    width: 95%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 70px;
+    
+}
+
+footer{
+    text-align: center;
+}
+
+
